@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.1 rem;
+  width: 100vw;
+  height: 200vh;
+  padding: 50px; 
+  background-color: blue;
+  border: 1px solid grey;
+}
+
+.subcard-free {
+  display: grid;
+  border: 1px solid grey;
+  border-radius: 12px;
+  padding: 50px;
+  background-color: white;
+  background-image: linear-gradient(white,grey);
+}
+.subcard-plus {
+  display: grid;
+  border: 1px solid grey;
+  border-radius: 12px;
+  padding: 50px;
+  background-color: white;
+  background-image: linear-gradient(white,grey);
+}
+.subcard-pro {
+  display: grid;
+  border: 1px solid grey;
+  border-radius: 12px;
+  padding: 50px;
+  background-color: white;
+}
+
+.free,
+.plus {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(0, 85, 255);
+  background-image: linear-gradient(to right, rgb(137, 137, 239), white);
+  cursor: pointer;
+}
+
+.pro {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(0, 85, 255);
+  cursor: pointer;
+}
+
+/* .subcard:hover {
+  background-color: rgb(185, 184, 184);
+} */
+
+
+.Header {
+  color: Grey;
+  text-align: center;
+
+}
