@@ -1,66 +1,60 @@
 .App {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
-}
-
-.Card {
   display: flex;
-  justify-content: space-around;
-  gap: 0.1 rem;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
   width: 100vw;
-  height: 200vh;
-  padding: 50px; 
-  background-color: blue;
-  border: 1px solid grey;
+  height: 100%;
 }
 
-.subcard-free {
-  display: grid;
-  border: 1px solid grey;
-  border-radius: 12px;
-  padding: 50px;
-  background-color: white;
-  background-image: linear-gradient(white,grey);
+.card{
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  margin: 40px;
+  padding: 20px;
+  transition: all 0.2s;
 }
-.subcard-plus {
-  display: grid;
-  border: 1px solid grey;
-  border-radius: 12px;
-  padding: 50px;
-  background-color: white;
-  background-image: linear-gradient(white,grey);
+.card:hover{
+  transform: translateY(-4px);
 }
-.subcard-pro {
-  display: grid;
-  border: 1px solid grey;
-  border-radius: 12px;
-  padding: 50px;
-  background-color: white;
+.pack{
+  color: darkgrey;
+  font-weight: bold;
 }
 
-.free,
-.plus {
-  padding: 5px;
-  border-radius: 15px;
-  background-color: rgb(0, 85, 255);
-  background-image: linear-gradient(to right, rgb(137, 137, 239), white);
+button{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  height: 40px;
+  width: 90%;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: bold;
   cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+button:hover{
+  opacity: 1;
 }
 
-.pro {
-  padding: 5px;
-  border-radius: 15px;
-  background-color: rgb(0, 85, 255);
-  cursor: pointer;
+
+.para{
+  text-align: start;
+  
 }
 
-/* .subcard:hover {
-  background-color: rgb(185, 184, 184);
-} */
-
-
-.Header {
-  color: Grey;
-  text-align: center;
-
+.periods{
+  font-size: 0.8rem;
+  font-weight: 500;
 }
